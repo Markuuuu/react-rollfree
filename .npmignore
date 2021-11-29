@@ -1,0 +1,9 @@
+.idea
+.eslintcache
+.dll-link-plugin
+node_modules
+yarn.lock
+package-lock.json
+.history
+lib
+.gitignore
