@@ -3,7 +3,7 @@ const nodeExternals = require('webpack-node-externals');
 
 module.exports = {
   mode: 'production',
-  entry: './lib/rollfree.js',
+  entry: './lib/index.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, './dist'),

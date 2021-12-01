@@ -1,5 +1,5 @@
 # react-rollfree
-# 为滚动而生
+# 适配react好用的滚动组件
 # 配置
 ###
 * @animationDirection boolean --滚动方向，默认从下到上，从左到右
@@ -15,6 +15,13 @@
 * @pauseWithHover boolean --默认开启，鼠标hover组件滚动停止
 * @showBorder boolean --是否显示辅助设计边界
 * @width number --滚动外框width
+###
+
+# 使用方式
+###
+import RollFree from 'react-rollfree';
+
+<RollFree></RollFree>
 ###
 
 # 工程目录
@@ -43,3 +50,4 @@ npm install react-rollfree
 
 
 ## 最新更新日志
+v 1.0.4     --更新动画
