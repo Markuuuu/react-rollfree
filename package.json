@@ -1,7 +1,8 @@
 {
   "name": "react-rollfree",
-  "version": "1.0.9",
-  "description": "",
+  "version": "2.0.0",
+  "description": "react-rollfree@2.0  适配react@18更新，react以下版本推荐使用1.0.15",
+  "repository": "https://github.com/Markuuuu/react-rollfree",
   "files": [
     "dist"
   ],
@@ -15,8 +16,8 @@
   "keywords": [
     "react"
   ],
-  "author": "Mark.Wu",
-  "license": "ISC",
+  "author": "CreteA@qq.com",
+  "license": "MIT",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",

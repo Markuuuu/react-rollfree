@@ -4,7 +4,6 @@
 ###
 * @animationDirection boolean --滚动方向，默认从下到上，从左到右
 * @animationTime number --过场时间 单位：S
-* @bigNum string --默认100，支持大数据量动态更新，防止内存过大
 * @children [<jsx>] --滚动组件，支持隐式传入
 * @childrenUpdateModel string --数据更新后更新列表时机，'now'立即更新，'later'跑完更新
 * @contextHeight number  --单条滚动组件height
@@ -52,5 +51,11 @@ npm install react-rollfree
 
 
 ## 最新更新日志
-1.0.9     --修复首屏丢失bug，减少单次滚动单位数量
-1.0.6     --更新动画
+|      版本     |       说明      |
+| ------------ | --------------- |
+| 2.0.0     |    --适配 React18 更新，更新空数组组件不更新bug   |
+| 1.0.15    |    --修复页面不可见状态切换可能存在的切屏bug   |
+| 1.0.13    |    --延时问题修复，感谢rena同学的反馈   |
+| 1.0.11    |    --hover问题修复，之前发布没有重新打包，所以发布的是假包   |
+| 1.0.9     |    --修复首屏丢失bug，减少单次滚动单位数量     |
+| 1.0.6     |    --更新动画                              |
